@@ -1,0 +1,179 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  padding: 0;
+  margin: 0;
+
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+
+/* smartphone */
+@media only screen and (min-width : 200px) and (max-width : 480px) {
+  hr{
+    background-color:#7d97ad;
+  }
+.logo{
+  width: 100px;
+  height: 100px;
+  margin:0;
+  padding: 0;
+  float: left;
+
+}
+h1{
+  text-align: right;
+  margin-top: 20px;
+  padding: 0;
+}
+.title{
+  text-align: right;
+  padding: 0;
+  margin-top:0;
+}
+hr{
+    clear: both;
+}
+h2{
+    clear: both;
+    margin: 100px 0px 0px;
+}
+  .box1{
+    width:300px;
+    height: 200px;
+    width: 100%;
+    background: pink;
+    margin-top:100px;
+  }
+  .box2{
+    width: 300px;
+    height: 200px;
+    background: red;
+    padding: 5px;
+    margin-top: 50px;
+  }
+  .box3{
+    width: 300px;
+    height: 200px;
+    background: green;
+    padding: 5px;
+    margin-top: 50px;
+  }
+  .box4{
+    width: 300px;
+    height: 200px;
+    background: purple;
+    padding: 5px;
+    margin-top: 50px;
+  }
+
+}
+@media screen and (min-width: 481px) and (max-width:768px) {
+  hr{
+    background-color:#7d97ad;
+  }
+.logo{
+  width: 200px;
+  height: 200px;
+  margin:0;
+  padding: 0;
+  float: left;
+
+}
+h1{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.title{
+  text-align: right;
+  padding: 0;
+  margin-top:0;
+}
+hr{
+    clear: both;
+}
+h2{
+
+    margin-bottom: 0;
+    padding:0;
+    background: orange;
+
+
+}
+  .box1{
+    width:700px;
+    height: 300px;
+    width: 100%;
+    background: pink;
+    margin-top:100px;
+
+
+  }
+  .box2{
+    width: 300px;
+    height: 200px;
+    background: red;
+    padding: 5px;
+    margin-top: 50px;
+  
+
+  }
+  .box3{
+    width: 300px;
+    height: 200px;
+    background: green;
+    padding: 5px;
+    margin-top: 50px;
+  }
+  .box4{
+    width: 300px;
+    height: 200px;
+    background: purple;
+    padding: 5px;
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  .box1{
+    width:900px;
+    height: 300px;
+    width: 100%;
+    background: pink;
+}
+
+.box2{
+  width: 300px;
+  height: 200px;
+  background: red;
+  padding: 5px;
+  margin-top: 50px;
+}
+.box3{
+  width: 300px;
+  height: 200px;
+  background: green;
+  padding: 5px;
+  margin-top: 50px;
+}
+.box4{
+  width: 300px;
+  height: 200px;
+  background: purple;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+}
