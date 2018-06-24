@@ -11,6 +11,7 @@ body{
 /* smartphone */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
   .grid{
       margin:0 auto;
       max-width: 480px;
@@ -56,6 +57,11 @@ body{
   /*main-page*/
   .featured-work{
       color: #7d97ad;
+
+  }
+  h3{
+    text-align: center;
+    margin: 0 auto;
   }
 
 
@@ -143,16 +149,18 @@ body{
   /*main-page*/
   .featured-work{
       color: #7d97ad;
+      text-align: center;
+      margin: 0 auto;
+  }
+  h3{
+    text-align: center;
+    margin: 0 auto;
   }
 
 
   .box-container{
       text-align: center;
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-
-
   }
 
 
@@ -228,16 +236,21 @@ body{
 
 
   /*main-page*/
-  .featured-work{
+
+   .featured-work{
       color: #7d97ad;
+      margin: 0 auto;
+      text-align: center;
   }
 
-
+  h3{
+    text-align: center;
+    margin: 0 auto;
+  }
   .box-container{
       text-align: center;
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      flex-direction: row;
 
   }
 
@@ -264,7 +277,7 @@ body{
 
 
   .project-img{
-    margin: 10%;
+    margin: 5%;
     padding: 20px;
     width: 30%;
     margin: auto;
